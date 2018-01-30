@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4890DE0845076EC1432792EB /* libPods-OSYYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB06D7533FC657A2046B5E1 /* libPods-OSYYKit.a */; };
+		8F05475820185AE100AA6F60 /* YYImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05475620185AE100AA6F60 /* YYImageViewCell.m */; };
+		8F05475920185AE100AA6F60 /* YYImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F05475720185AE100AA6F60 /* YYImageViewCell.xib */; };
 		8F1825482011901800E86454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1825472011901800E86454 /* AppDelegate.m */; };
 		8F18254B2011901800E86454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F18254A2011901800E86454 /* ViewController.m */; };
 		8F18254E2011901800E86454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F18254C2011901800E86454 /* Main.storyboard */; };
@@ -15,6 +18,23 @@
 		8F1825562011901800E86454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1825552011901800E86454 /* main.m */; };
 		8F1825602011901800E86454 /* OSYYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F18255F2011901800E86454 /* OSYYKitTests.m */; };
 		8F18256B2011901800E86454 /* OSYYKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F18256A2011901800E86454 /* OSYYKitUITests.m */; };
+		8F2A37AA201195C1002FA2A9 /* YYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37A9201195C1002FA2A9 /* YYModelViewController.m */; };
+		8F2A37AD2011974A002FA2A9 /* AnalysisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37AC2011974A002FA2A9 /* AnalysisModel.m */; };
+		8F2A37B120119E4E002FA2A9 /* OsModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A37B020119E4E002FA2A9 /* OsModel.json */; };
+		8F2A37B52011A341002FA2A9 /* OSModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37B32011A341002FA2A9 /* OSModelCell.m */; };
+		8F2A37B62011A341002FA2A9 /* OSModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A37B42011A341002FA2A9 /* OSModelCell.xib */; };
+		8F2A37BA2011DD34002FA2A9 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37B92011DD34002FA2A9 /* YYCacheViewController.m */; };
+		8F2A37BE2011FE6E002FA2A9 /* YYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37BD2011FE6E002FA2A9 /* YYImageViewController.m */; };
+		8F2A37C22011FECF002FA2A9 /* YYWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37C12011FECF002FA2A9 /* YYWebImageViewController.m */; };
+		8F2A37C62011FEEC002FA2A9 /* YYTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37C52011FEEC002FA2A9 /* YYTextViewController.m */; };
+		8F2A37CA2011FF15002FA2A9 /* YYKeyboardManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37C92011FF15002FA2A9 /* YYKeyboardManagerViewController.m */; };
+		8F2A37CE2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37CD2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.m */; };
+		8F2A37D22011FFA4002FA2A9 /* YYAsyncLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37D12011FFA4002FA2A9 /* YYAsyncLayerViewController.m */; };
+		8F2A37D62011FFC2002FA2A9 /* YYCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A37D52011FFC2002FA2A9 /* YYCategoriesViewController.m */; };
+		8F59A19920186D7F00E822F7 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F59A19820186D7F00E822F7 /* UIView+Rect.m */; };
+		8F59A19C2018705300E822F7 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F59A19B2018705300E822F7 /* niconiconi@2x.gif */; };
+		8F59A19E201870CF00E822F7 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F59A19D201870CF00E822F7 /* pia@2x.png */; };
+		8F59A1A32018822000E822F7 /* fav02l-sheet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F59A1A22018822000E822F7 /* fav02l-sheet@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C9413C46E036093A3179956 /* Pods-OSYYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSYYKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSYYKit/Pods-OSYYKit.release.xcconfig"; sourceTree = "<group>"; };
+		8F05475520185AE100AA6F60 /* YYImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageViewCell.h; sourceTree = "<group>"; };
+		8F05475620185AE100AA6F60 /* YYImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageViewCell.m; sourceTree = "<group>"; };
+		8F05475720185AE100AA6F60 /* YYImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYImageViewCell.xib; sourceTree = "<group>"; };
 		8F1825432011901800E86454 /* OSYYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSYYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1825462011901800E86454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F1825472011901800E86454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +75,37 @@
 		8F1825662011901800E86454 /* OSYYKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSYYKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F18256A2011901800E86454 /* OSYYKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSYYKitUITests.m; sourceTree = "<group>"; };
 		8F18256C2011901800E86454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2A37A8201195C1002FA2A9 /* YYModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModelViewController.h; sourceTree = "<group>"; };
+		8F2A37A9201195C1002FA2A9 /* YYModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYModelViewController.m; sourceTree = "<group>"; };
+		8F2A37AB2011974A002FA2A9 /* AnalysisModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalysisModel.h; sourceTree = "<group>"; };
+		8F2A37AC2011974A002FA2A9 /* AnalysisModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalysisModel.m; sourceTree = "<group>"; };
+		8F2A37B020119E4E002FA2A9 /* OsModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OsModel.json; sourceTree = "<group>"; };
+		8F2A37B22011A341002FA2A9 /* OSModelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSModelCell.h; sourceTree = "<group>"; };
+		8F2A37B32011A341002FA2A9 /* OSModelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSModelCell.m; sourceTree = "<group>"; };
+		8F2A37B42011A341002FA2A9 /* OSModelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OSModelCell.xib; sourceTree = "<group>"; };
+		8F2A37B82011DD34002FA2A9 /* YYCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCacheViewController.h; sourceTree = "<group>"; };
+		8F2A37B92011DD34002FA2A9 /* YYCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCacheViewController.m; sourceTree = "<group>"; };
+		8F2A37BC2011FE6E002FA2A9 /* YYImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageViewController.h; sourceTree = "<group>"; };
+		8F2A37BD2011FE6E002FA2A9 /* YYImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageViewController.m; sourceTree = "<group>"; };
+		8F2A37C02011FECF002FA2A9 /* YYWebImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWebImageViewController.h; sourceTree = "<group>"; };
+		8F2A37C12011FECF002FA2A9 /* YYWebImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWebImageViewController.m; sourceTree = "<group>"; };
+		8F2A37C42011FEEC002FA2A9 /* YYTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextViewController.h; sourceTree = "<group>"; };
+		8F2A37C52011FEEC002FA2A9 /* YYTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextViewController.m; sourceTree = "<group>"; };
+		8F2A37C82011FF15002FA2A9 /* YYKeyboardManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKeyboardManagerViewController.h; sourceTree = "<group>"; };
+		8F2A37C92011FF15002FA2A9 /* YYKeyboardManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKeyboardManagerViewController.m; sourceTree = "<group>"; };
+		8F2A37CC2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDispatchQueuePoolViewController.h; sourceTree = "<group>"; };
+		8F2A37CD2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDispatchQueuePoolViewController.m; sourceTree = "<group>"; };
+		8F2A37D02011FFA4002FA2A9 /* YYAsyncLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayerViewController.h; sourceTree = "<group>"; };
+		8F2A37D12011FFA4002FA2A9 /* YYAsyncLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayerViewController.m; sourceTree = "<group>"; };
+		8F2A37D42011FFC2002FA2A9 /* YYCategoriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCategoriesViewController.h; sourceTree = "<group>"; };
+		8F2A37D52011FFC2002FA2A9 /* YYCategoriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCategoriesViewController.m; sourceTree = "<group>"; };
+		8F59A19720186D7F00E822F7 /* UIView+Rect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		8F59A19820186D7F00E822F7 /* UIView+Rect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		8F59A19B2018705300E822F7 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
+		8F59A19D201870CF00E822F7 /* pia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pia@2x.png"; sourceTree = "<group>"; };
+		8F59A1A22018822000E822F7 /* fav02l-sheet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav02l-sheet@2x.png"; sourceTree = "<group>"; };
+		AEB713A9E82F68AB5BCD9F03 /* Pods-OSYYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSYYKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSYYKit/Pods-OSYYKit.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB06D7533FC657A2046B5E1 /* libPods-OSYYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSYYKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4890DE0845076EC1432792EB /* libPods-OSYYKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +134,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206A80E86F3B361FF849CCFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB06D7533FC657A2046B5E1 /* libPods-OSYYKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		431D3E4615EA92888012BAD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB713A9E82F68AB5BCD9F03 /* Pods-OSYYKit.debug.xcconfig */,
+				2C9413C46E036093A3179956 /* Pods-OSYYKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F18253A2011901800E86454 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +158,8 @@
 				8F18255E2011901800E86454 /* OSYYKitTests */,
 				8F1825692011901800E86454 /* OSYYKitUITests */,
 				8F1825442011901800E86454 /* Products */,
+				431D3E4615EA92888012BAD9 /* Pods */,
+				206A80E86F3B361FF849CCFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +176,7 @@
 		8F1825452011901800E86454 /* OSYYKit */ = {
 			isa = PBXGroup;
 			children = (
+				8F2A37A620119578002FA2A9 /* YYAnalysis */,
 				8F1825462011901800E86454 /* AppDelegate.h */,
 				8F1825472011901800E86454 /* AppDelegate.m */,
 				8F1825492011901800E86454 /* ViewController.h */,
@@ -132,6 +208,125 @@
 			path = OSYYKitUITests;
 			sourceTree = "<group>";
 		};
+		8F2A37A620119578002FA2A9 /* YYAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37D32011FFB8002FA2A9 /* YYCategories */,
+				8F2A37CF2011FF97002FA2A9 /* AsyncLayer */,
+				8F2A37CB2011FF2F002FA2A9 /* DispatchQueuePool   */,
+				8F2A37C72011FF0A002FA2A9 /* KeyboardManager */,
+				8F2A37C32011FEDE002FA2A9 /* Text */,
+				8F2A37BF2011FEC0002FA2A9 /* WebImage */,
+				8F2A37BB2011FE5E002FA2A9 /* Image */,
+				8F2A37B72011DCD7002FA2A9 /* Cache */,
+				8F2A37A7201195A4002FA2A9 /* Model */,
+			);
+			path = YYAnalysis;
+			sourceTree = "<group>";
+		};
+		8F2A37A7201195A4002FA2A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37B020119E4E002FA2A9 /* OsModel.json */,
+				8F2A37A8201195C1002FA2A9 /* YYModelViewController.h */,
+				8F2A37A9201195C1002FA2A9 /* YYModelViewController.m */,
+				8F2A37AB2011974A002FA2A9 /* AnalysisModel.h */,
+				8F2A37AC2011974A002FA2A9 /* AnalysisModel.m */,
+				8F2A37B22011A341002FA2A9 /* OSModelCell.h */,
+				8F2A37B32011A341002FA2A9 /* OSModelCell.m */,
+				8F2A37B42011A341002FA2A9 /* OSModelCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F2A37B72011DCD7002FA2A9 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37B82011DD34002FA2A9 /* YYCacheViewController.h */,
+				8F2A37B92011DD34002FA2A9 /* YYCacheViewController.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		8F2A37BB2011FE5E002FA2A9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8F59A19A2018703C00E822F7 /* Resources */,
+				8F2A37BC2011FE6E002FA2A9 /* YYImageViewController.h */,
+				8F2A37BD2011FE6E002FA2A9 /* YYImageViewController.m */,
+				8F05475520185AE100AA6F60 /* YYImageViewCell.h */,
+				8F05475620185AE100AA6F60 /* YYImageViewCell.m */,
+				8F05475720185AE100AA6F60 /* YYImageViewCell.xib */,
+				8F59A19720186D7F00E822F7 /* UIView+Rect.h */,
+				8F59A19820186D7F00E822F7 /* UIView+Rect.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		8F2A37BF2011FEC0002FA2A9 /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37C02011FECF002FA2A9 /* YYWebImageViewController.h */,
+				8F2A37C12011FECF002FA2A9 /* YYWebImageViewController.m */,
+			);
+			path = WebImage;
+			sourceTree = "<group>";
+		};
+		8F2A37C32011FEDE002FA2A9 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37C42011FEEC002FA2A9 /* YYTextViewController.h */,
+				8F2A37C52011FEEC002FA2A9 /* YYTextViewController.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		8F2A37C72011FF0A002FA2A9 /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37C82011FF15002FA2A9 /* YYKeyboardManagerViewController.h */,
+				8F2A37C92011FF15002FA2A9 /* YYKeyboardManagerViewController.m */,
+			);
+			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		8F2A37CB2011FF2F002FA2A9 /* DispatchQueuePool   */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37CC2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.h */,
+				8F2A37CD2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.m */,
+			);
+			path = "DispatchQueuePool  ";
+			sourceTree = "<group>";
+		};
+		8F2A37CF2011FF97002FA2A9 /* AsyncLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37D02011FFA4002FA2A9 /* YYAsyncLayerViewController.h */,
+				8F2A37D12011FFA4002FA2A9 /* YYAsyncLayerViewController.m */,
+			);
+			path = AsyncLayer;
+			sourceTree = "<group>";
+		};
+		8F2A37D32011FFB8002FA2A9 /* YYCategories */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A37D42011FFC2002FA2A9 /* YYCategoriesViewController.h */,
+				8F2A37D52011FFC2002FA2A9 /* YYCategoriesViewController.m */,
+			);
+			path = YYCategories;
+			sourceTree = "<group>";
+		};
+		8F59A19A2018703C00E822F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F59A19D201870CF00E822F7 /* pia@2x.png */,
+				8F59A1A22018822000E822F7 /* fav02l-sheet@2x.png */,
+				8F59A19B2018705300E822F7 /* niconiconi@2x.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F18256F2011901800E86454 /* Build configuration list for PBXNativeTarget "OSYYKit" */;
 			buildPhases = (
+				59F7D003CA48F5738A98CA52 /* [CP] Check Pods Manifest.lock */,
 				8F18253F2011901800E86454 /* Sources */,
 				8F1825402011901800E86454 /* Frameworks */,
 				8F1825412011901800E86454 /* Resources */,
+				0CDEE2993F538667637D0C55 /* [CP] Embed Pods Frameworks */,
+				CD36442752F36FDCE7A37DDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +436,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F05475920185AE100AA6F60 /* YYImageViewCell.xib in Resources */,
+				8F59A19E201870CF00E822F7 /* pia@2x.png in Resources */,
+				8F59A1A32018822000E822F7 /* fav02l-sheet@2x.png in Resources */,
+				8F2A37B62011A341002FA2A9 /* OSModelCell.xib in Resources */,
 				8F1825532011901800E86454 /* LaunchScreen.storyboard in Resources */,
 				8F1825502011901800E86454 /* Assets.xcassets in Resources */,
 				8F18254E2011901800E86454 /* Main.storyboard in Resources */,
+				8F2A37B120119E4E002FA2A9 /* OsModel.json in Resources */,
+				8F59A19C2018705300E822F7 /* niconiconi@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +464,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CDEE2993F538667637D0C55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSYYKit/Pods-OSYYKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F7D003CA48F5738A98CA52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSYYKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD36442752F36FDCE7A37DDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSYYKit/Pods-OSYYKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F18253F2011901800E86454 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2A37D22011FFA4002FA2A9 /* YYAsyncLayerViewController.m in Sources */,
+				8F2A37BA2011DD34002FA2A9 /* YYCacheViewController.m in Sources */,
+				8F2A37C62011FEEC002FA2A9 /* YYTextViewController.m in Sources */,
+				8F2A37AA201195C1002FA2A9 /* YYModelViewController.m in Sources */,
 				8F18254B2011901800E86454 /* ViewController.m in Sources */,
 				8F1825562011901800E86454 /* main.m in Sources */,
+				8F2A37D62011FFC2002FA2A9 /* YYCategoriesViewController.m in Sources */,
 				8F1825482011901800E86454 /* AppDelegate.m in Sources */,
+				8F2A37AD2011974A002FA2A9 /* AnalysisModel.m in Sources */,
+				8F2A37CA2011FF15002FA2A9 /* YYKeyboardManagerViewController.m in Sources */,
+				8F59A19920186D7F00E822F7 /* UIView+Rect.m in Sources */,
+				8F2A37BE2011FE6E002FA2A9 /* YYImageViewController.m in Sources */,
+				8F05475820185AE100AA6F60 /* YYImageViewCell.m in Sources */,
+				8F2A37C22011FECF002FA2A9 /* YYWebImageViewController.m in Sources */,
+				8F2A37B52011A341002FA2A9 /* OSModelCell.m in Sources */,
+				8F2A37CE2011FF41002FA2A9 /* YYDispatchQueuePoolViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +696,13 @@
 		};
 		8F1825702011901800E86454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB713A9E82F68AB5BCD9F03 /* Pods-OSYYKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = OSYYKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.OSYYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +712,13 @@
 		};
 		8F1825712011901800E86454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9413C46E036093A3179956 /* Pods-OSYYKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = OSYYKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.OSYYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
